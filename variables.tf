@@ -10,6 +10,12 @@ variable "ec2_instance_type" {
   default     = "c7i-flex.large"
 }
 
+variable "key_name" {
+  type        = string
+  description = "The name of the SSH key pair to use for the EC2 instance"
+  default     = "infrastructurekey"
+}
+
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
