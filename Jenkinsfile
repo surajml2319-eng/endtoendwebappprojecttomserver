@@ -66,3 +66,4 @@ pipeline {
             archiveArtifacts artifacts: '**/*.tf', allowEmptyArchive: true
         }
     }
+}
